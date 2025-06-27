@@ -25,7 +25,7 @@
     "postinstall": "bun x sherif@latest"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.6",
     "@changesets/cli": "^2.29.4",
     "@dotenvx/dotenvx": "^1.44.2",
     "@rectangular-labs/typescript": "workspace:*",
