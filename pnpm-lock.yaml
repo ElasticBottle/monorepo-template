@@ -142,8 +142,8 @@ importers:
         specifier: ^1.7.9
         version: 1.7.9(crossws@0.3.5)(ws@8.18.1)
       '@orpc/tanstack-query':
-        specifier: ^1.7.9
-        version: 1.7.9(@orpc/client@1.7.11)(@tanstack/query-core@5.83.1)
+        specifier: ^1.7.11
+        version: 1.7.11(@orpc/client@1.7.11)(@tanstack/query-core@5.83.1)
       '@rectangular-labs/db':
         specifier: workspace:*
         version: link:../db
@@ -1411,10 +1411,10 @@ packages:
   '@orpc/standard-server@1.7.9':
     resolution: {integrity: sha512-KPF5EAaVM2ghaJgD8iAG5BZNferliEbcS/LCS6gK9Ao56oOaA9JlwpZSIy68zATSLGS5sqvyn9O55mLUbWw3WQ==}
 
-  '@orpc/tanstack-query@1.7.9':
-    resolution: {integrity: sha512-T8JMr7+Zwj6VFJ3pPwuoYXIfofFn32bYai8OfET52L8dl5lIDgkifQArYPPUw7T4upMR6k2SXyVKukTYYQq+9A==}
+  '@orpc/tanstack-query@1.7.11':
+    resolution: {integrity: sha512-k5jihgerz4JPhXfJ7KEd0BPyp+kPL8YGzyUJCusoIA+Odwgys7I5Xp/Tl2LI08s0QLPJqJOuqj8/hQ667SdeNA==}
     peerDependencies:
-      '@orpc/client': 1.7.9
+      '@orpc/client': 1.7.11
       '@tanstack/query-core': '>=5.80.2'
 
   '@parcel/watcher-android-arm64@2.5.1':
@@ -8231,10 +8231,10 @@ snapshots:
     dependencies:
       '@orpc/shared': 1.7.9
 
-  '@orpc/tanstack-query@1.7.9(@orpc/client@1.7.11)(@tanstack/query-core@5.83.1)':
+  '@orpc/tanstack-query@1.7.11(@orpc/client@1.7.11)(@tanstack/query-core@5.83.1)':
     dependencies:
       '@orpc/client': 1.7.11
-      '@orpc/shared': 1.7.9
+      '@orpc/shared': 1.7.11
       '@tanstack/query-core': 5.83.1
 
   '@parcel/watcher-android-arm64@2.5.1':
