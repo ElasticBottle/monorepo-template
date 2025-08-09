@@ -139,8 +139,8 @@ importers:
         specifier: ^1.7.11
         version: 1.7.11
       '@orpc/server':
-        specifier: ^1.7.9
-        version: 1.7.9(crossws@0.3.5)(ws@8.18.1)
+        specifier: ^1.7.11
+        version: 1.7.11(crossws@0.3.5)(ws@8.18.1)
       '@orpc/tanstack-query':
         specifier: ^1.7.9
         version: 1.7.9(@orpc/client@1.7.11)(@tanstack/query-core@5.83.1)
