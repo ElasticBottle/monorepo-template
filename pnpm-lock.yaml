@@ -130,8 +130,8 @@ importers:
         specifier: ^1.7.11
         version: 1.7.11
       '@orpc/json-schema':
-        specifier: ^1.7.9
-        version: 1.7.9(crossws@0.3.5)(ws@8.18.1)
+        specifier: ^1.7.11
+        version: 1.7.11(crossws@0.3.5)(ws@8.18.1)
       '@orpc/openapi':
         specifier: ^1.7.9
         version: 1.7.9(crossws@0.3.5)(ws@8.18.1)
@@ -1338,8 +1338,8 @@ packages:
   '@orpc/json-schema-typed@1.7.11':
     resolution: {integrity: sha512-qz/CM+18D1CNzT6HhFEfN4aKmleOC4sbyE8iOTEpPPZ5qBRYVcoWuCxZRrPg6ILR+8uM82ICp0lowBZ7DpUpdw==}
 
-  '@orpc/json-schema@1.7.9':
-    resolution: {integrity: sha512-ZiuJP/589+SaosLbAlA2kZZ1xzYYjSHNGdcEFyA+p3hx1jXj5neLks90rBdivRxRoMSFQoiK91CsQIJH5Kmuzw==}
+  '@orpc/json-schema@1.7.11':
+    resolution: {integrity: sha512-deNBe38/eplI81peRjSSAD2kVk8SmdEwCCZvkhyf09oiG3+xnV2CMUHi52m0eH/LjcGMEnr88Frkqsm7FV3gnQ==}
 
   '@orpc/openapi-client@1.7.11':
     resolution: {integrity: sha512-CGXm0fVTv5G+2fBpPPlamLZle6PJFqArJhMBKXsPqM+mTg8SHJdq9YjdpzsryRmwmX00sKFBvCvvzWO5sEJqtw==}
@@ -8084,13 +8084,13 @@ snapshots:
 
   '@orpc/json-schema-typed@1.7.11': {}
 
-  '@orpc/json-schema@1.7.9(crossws@0.3.5)(ws@8.18.1)':
+  '@orpc/json-schema@1.7.11(crossws@0.3.5)(ws@8.18.1)':
     dependencies:
-      '@orpc/contract': 1.7.9
-      '@orpc/openapi': 1.7.9(crossws@0.3.5)(ws@8.18.1)
-      '@orpc/server': 1.7.9(crossws@0.3.5)(ws@8.18.1)
-      '@orpc/shared': 1.7.9
-      json-schema-typed: 8.0.1
+      '@orpc/contract': 1.7.11
+      '@orpc/json-schema-typed': 1.7.11
+      '@orpc/openapi': 1.7.11(crossws@0.3.5)(ws@8.18.1)
+      '@orpc/server': 1.7.11(crossws@0.3.5)(ws@8.18.1)
+      '@orpc/shared': 1.7.11
     transitivePeerDependencies:
       - crossws
       - ws
